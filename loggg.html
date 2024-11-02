@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="referrer" content="no-referrer">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline';">
+    <meta name="X-Content-Type-Options" content="nosniff">
+    <meta name="X-XSS-Protection" content="1; mode=block">
+    <meta name="X-Frame-Options" content="DENY">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container content">
+        <nav class="MAMAAAKKKK content">
+            <a class="MAMAAAKKKK content" href="index.html">Home</a>
+            <a class="MAMAAAKKKK content" href="#">About</a>
+            <a class="MAMAAAKKKK content" href="#">Store</a>
+        </nav>
+        <div class="login-box content">
+            <h2 class="MAMAAAKKKK content">Login</h2>
+            <form class="MAMAAAKKKK content" action="index.html" method="post">
+                <input class="MAMAAAKKKK content" type="email" placeholder="Enter your email" required>
+                <input class="MAMAAAKKKK content" type="password" placeholder="Enter your password" required>
+                <label>
+                    <input class="MAMAAAKKKK content" type="checkbox"> Remember me
+                </label>
+                <button type="submit" class="sign content">تسجيل دخول</button>
+            </form>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
+            const contents = document.querySelectorAll('.content'); // تحديد جميع العناصر التي تحتوي على المحتوى
+
+            // إضافة الفئة 'visible' لجميع العناصر عند فتح الصفحة
+            contents.forEach(content => {
+                content.classList.add('visible');
+            });
+        });
+    </script>
+</body>
+</html>
